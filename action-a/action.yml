@@ -1,0 +1,17 @@
+name: "Hi, my name's OldmanChe!"
+description: "It's very happy to see you guys!"
+author: "oldmanche@github.com"
+
+inputs:
+  MY_NAME:
+    description: "Everyone"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
